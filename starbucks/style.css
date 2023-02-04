@@ -1,0 +1,424 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+header .line{
+    background-color: #117050;
+    height: 15px;
+}
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+  
+    align-items: center;
+}
+
+
+
+.header-area{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left img{
+    width: 70px;
+    margin: 10px;
+}
+
+.header-search input{
+    font-size: 16px;
+    padding: 7px 10px;
+    border: 1px solid gray;
+    outline: 0;
+}
+
+.header-search{
+    display: flex;    
+    align-items: center;
+}
+
+.header-search form{
+    display: flex;
+}
+
+.header-search button{
+    border: none;
+    margin-left: -30px;
+    cursor: pointer;
+    background: transparent;
+}
+
+
+
+.header-search button img{
+    width: 16px;
+    height: 16px;
+    
+}
+
+.header-right{
+    display: flex;
+}
+
+
+
+.header-menu{
+    margin-left: 50px;
+    padding-right: 2em;
+   
+}
+
+.header-menu img{
+    width: 24px;
+    height: 24px;
+  
+    
+}
+
+
+.banner{
+    background-image: url("./imagem/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 90px;
+    padding-bottom: 170px;
+}
+
+.banner h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 50px;
+    margin: 0;
+    margin-bottom: 60px;
+    margin-left: 90px;
+    
+}
+
+.container2 span{
+    padding-left: 6em;
+    font-weight: 700;
+    
+}    
+
+.circle-images img{
+    width: 148px;
+    height: 148px;
+    border: 4px solid #117050;
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-left: 80px;
+    margin-top: 5em;
+    
+}
+
+.area1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area1-content{
+    height: 360px;
+   
+}
+
+.area-img1{
+    background: green;
+    height: 350px;
+    background-image: url(./imagem/f2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.area-img2{
+    background: red;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    background-image: url(./imagem/f1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.bar{
+    background-color: #117050;
+    height: 22px;
+    width: 168px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.area-quote, .area1-text, h2{
+    margin: 50px;
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+
+.area1-text{
+    line-height: 22px;
+    margin-bottom: 60px;
+}
+
+.btn{
+    margin-left: 50px;
+    display: inline-block;
+    border: 2px solid #454545;
+    padding: 10px 20px ;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #454545;
+}
+
+.btn:hover{
+    color: #FFF;
+    background-color: #454545;
+}
+
+.area2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+}
+
+.area2-content{
+    height: 360px;
+    
+    
+}
+
+.area2-img1{
+    background-color: #9999;
+    height: 420px;
+    background-image: url(imagem/f4.jpg);
+    background-position: center;
+    background-size: cover  ;
+    margin-top: 30px;
+    
+    
+}
+
+.area2-img2{
+    background-color: #9999;
+    height: 810px;
+    background-image: url(imagem/f3.jpg);
+    background-position: center;
+    background-size: cover  ;
+    grid-column: 1/2;
+    grid-row: 1/3;    
+}
+
+
+
+.area3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area3-content{
+   padding: 80px;
+   background-image: url(./imagem/bg2.jpg);
+   background-position: left;
+   margin-left: 10px;
+   background-size: cover;
+}
+
+.area3-text{
+    margin-bottom: 60px;
+    line-height: 22px;
+}
+
+.area3-img1{
+    background-image: url(./imagem/f5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+
+.title{
+    margin-left: 1px;
+}
+
+.btn3{
+    margin-left: 2px;
+    display: inline-block;
+    border: 2px solid #454545;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.btn3:hover{
+    color: #FFF;
+    background: #454545;
+
+}
+
+.area4{
+    display: grid;
+    grid-template-columns: 450px 1fr;
+    background-color: #454545;
+}
+
+.area4-content{
+    height: 360px;
+    color:#ddd;
+   
+}
+
+
+.area4-img1{
+    background-color: #9999;
+    height: 450px;
+    background-image: url(imagem/bg3.jpg);
+    background-position: left;
+    background-size: cover;
+    
+    
+}
+
+.area4-text, h2{
+    margin: 50px;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    line-height: 20px;
+}
+
+.bar{
+    background-color: #117050;
+    height: 22px;
+    width: 168px;
+    margin-top: 120px;
+    margin-left: 50px;
+    
+}
+
+
+.btn{
+    margin-left: 50px;
+    display: inline-block;
+    border: 2px solid #454545;
+    padding: 10px 20px ;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #454545;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    background-color: #999;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.area-5{
+    background-image: url(./imagem/bg4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+@media (min-width: 769px)and (max-width: 1140px){
+    .container{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (min-width: 426px) and(max-width: 768px){
+    
+    .container2{
+        padding-left: 40px;
+        padding-right: 60px;
+    }
+
+    .circle-images{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        
+    }
+
+    .circle-images img{
+        display: flex;
+        justify-content: start;
+        width: 100px;
+        height: 100px;
+    }
+    .area1{
+        grid-template-columns: 3fr, 2fr;
+       
+    }
+
+    .area2{
+        grid-template-columns: 2fr 3fr;
+    }
+
+    .area1-text{
+       padding: 20px;
+    }
+
+}
+
+@media (max-width: 425px){
+    .container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    h1{
+        font-size: 50px;
+        line-height: 40px;
+    }
+
+    .banner-images img{
+        width: 70px;
+        height: 70px;
+        border: 1px solid #117050;
+        border-radius: 50%;
+        margin-right: 20px;
+        margin-left: 60px;
+        
+    }
+
+    .area1, .area2, .area3, .area4{
+        grid-template-columns: 1fr;
+    }
+
+   .container2{
+    display: flex;
+    flex-direction: column;
+    margin-left: -40px;
+   }
+
+   .circle-images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+    .area1-content, .area2-content{
+        margin-top: -100px;
+       
+    }
+
+    .area-4{
+        display: flex;
+        align-items: center;
+    }
+
+    .area-5{
+        height: 200px;
+    }
+
+    footer{
+
+    }
+}
+
+
