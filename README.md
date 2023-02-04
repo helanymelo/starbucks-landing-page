@@ -1,6 +1,6 @@
 # Starbucks Lading Page!![enter link description here](https://cdn.iconscout.com/icon/free/png-256/starbucks-226353.png)
 
-Essa lading page foi criaada com o propósito de praticar flexbox, grid e reponsidade.
+Essa lading page foi criaada com o propósito de praticar flexbox, grid e reponsividade.
 
 
 ## HTML 
